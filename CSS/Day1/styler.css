@@ -1,0 +1,32 @@
+h1{
+    background-color: springgreen;
+}
+
+ul{
+    background-color: beige;
+    font-size: 20px;
+}
+#one{
+    background-color: crimson;
+}
+
+#two{
+    background-color: lightcoral;
+}
+
+.one{
+    background-color: rgb(153, 205, 50);
+}
+
+h1,#one,.one{
+    background-color: palevioletred;
+}
+
+.font{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}

@@ -1,0 +1,43 @@
+/* span{
+    background-color: blueviolet;
+} */
+
+/* #one{
+    color: chartreuse;
+} */
+
+h1{
+    color: brown;
+    background-color: bisque;
+    height: 40px;
+    width: 260px;
+    border: 20px double plum;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    /* display: inline; */
+    display: inline-block;
+}
+
+span{
+    background-color: rgba(15, 11, 20, 0.534);
+    padding: 20px;
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+    /* display: block; */
+    display: inline-block;
+}
+
+h2{
+    color: brown;
+    background-color: bisque;
+    height: 40px;
+    width: 260px;
+    border: 20px double plum;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 50px;
+    display: inline-block;
+
+}   

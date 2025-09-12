@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>Fill the below form</p>
+    <hr>
+
+    <form action="">
+        <h2>Personnel Details</h2>
+        <label for="fname">First Name:</label>
+        <input type="text" name="FName" id="fname" placeholder="e.g:Manoj">
+        <br><br>
+
+        <label for="sname">Second Name:</label>
+        <input type="text" name="SName" id="sname" placeholder="e.g:Arora">
+        <br><br>
+
+        <label for="DOB">Date of Birth(DOB):</label>
+        <input type="date" name="DOB" id="DOB">
+        <br><br>
+
+        <label>Gender:</label>
+        <br>
+        <input type="radio" name="Gender" id="male">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" name="Gender" id="female">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" name="Gender" id="other">
+        <label for="other">OTHER</label>
+        <br><br>
+
+        <label>Upload your photo:</label><br><br>
+        <input type="file" name="photo">
+        <hr>
+
+        <h2>Contact Information</h2>
+        <label for="email">E-Mail Adress:</label>
+        <input type="email" name="email" id="email" placeholder="e.g:manoj123@gmail.com">
+        <br><br>
+        <label for="phn">Phone Number</label>
+        <input type="tel" name="number" id="phn" placeholder="e.g:9876543210">
+        <br><br>
+
+        <label for="adress">Enter mailing Adress:</label><br>
+        <textarea name="adress" id="adress" rows="10" cols="30" placeholder="house no, street, area, PIN, landmark, etc,..."></textarea>
+        <hr>
+
+        <h2>Academic Information</h2>
+        <label for="course"> Select your Course:</label>
+        <select name="course" id="course">
+            <option value="CSE">CSE</option>
+            <option value="ME">ME</option>
+            <option value="CE">CE</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="ISE">ISE</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+        </select><br><br>
+
+        <label>Extra Curricular Interests:</label><br>
+        <input type="checkbox" name="interests" id="interests" value="sports">
+        <label for="interests">Sports</label><br>
+
+        <input type="checkbox" name="interests" id="interests" value="Music & Arts">
+        <label for="interests">Music & Arts</label><br>
+        
+        <input type="checkbox" name="interests" id="interests" value="Leadership">
+        <label for="interests">Leadership</label><br>
+
+        <input type="checkbox" name="interests" id="interests" value="Event Managament">
+        <label for="interests">Event Managament</label><br>
+
+        <input type="checkbox" name="interests" id="interests" value="Technical Activities">
+        <label for="interests">Technical Activities</label><br><br>
+        <hr>
+
+        <h2>Create Your Account</h2><br>
+        <label for="pwd">Create a password:</label>
+        <input type="password" name="password" id="pwd"><br><br>
+
+        <label for="question">Security question:</label>
+        <select name="SecQue" id="question">
+            <option value="What's your first pet's name?"> What is your first pet's name?</option>
+            <option value="What is your favorite sport?">Waht is your favorite sport?</option>
+            <option value="Who is your Idol?">Who is is your Idol?</option>     
+        </select><br><br>
+
+        <label for="answer">Security Answer:</label>
+        <input type="text" name="SecAns" id="answer"><br><br>
+
+        <input type="checkbox" name="T&C" id="T&C" value="agreed">
+        <label for="T&C">I am agreed to organization's Terms and Conditions</label><br><br>
+        <hr>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear Form"><br><br>
+        <button type="submit">Register</button>
+        <Button type="reset">Clear Form</Button>
+
+        
+
+
+    </form>
+</body>
+</html>

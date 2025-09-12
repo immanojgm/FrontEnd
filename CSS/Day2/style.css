@@ -1,0 +1,35 @@
+h1{
+    /* background-color: orange;
+    /* height: 25px;  */
+    /* width: 300px; */
+   
+    /*2-ways of writing
+
+     border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    
+            or   */    
+    /* border: 15px solid green;
+    padding: 20px;
+    margin: 20px; */
+    background-color: maroon;
+    border-top: 20px solid seagreen;
+    padding-left: 20px;
+    margin: 20px;
+
+}
+h2{
+    background-color: pink;
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 20px;
+}
+
+p{
+    background-color: aqua;
+    border: 10px solid navy;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+}
