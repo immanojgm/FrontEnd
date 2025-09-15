@@ -1,0 +1,72 @@
+#container{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#container1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+
+#one{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    position: relative;
+    border-radius: 20px;
+    
+}
+
+
+#two{
+    background-color: darkblue;
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+
+}
+
+#three{
+    background-color: white;
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    position: absolute;
+    top: 15px;
+    left: 110px;
+
+}
+
+#four{
+    background-color: navy;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+#five{
+    background-color: yellow;
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    top: 70px;
+}
+
+#six{
+    background-color: yellow;
+    height: 200px;
+    width: 30px;
+    position: absolute;
+    top: -70px;
+    left: 100px;
+}

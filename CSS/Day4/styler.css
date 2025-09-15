@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgb(190, 187, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    padding: 60px;
+    border-radius: 10px;
+
+}
+
+
+h1{
+    /* background-color: aqua; */
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+}
+
+label{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input{
+
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button{
+cursor:pointer ;
+}
